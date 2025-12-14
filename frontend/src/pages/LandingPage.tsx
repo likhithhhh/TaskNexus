@@ -25,7 +25,6 @@ const features = [
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-white to-slate-100 dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-950 dark:to-slate-900">
-      {/* Navbar - Frosted Glass */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-lg border-b border-slate-200/80 dark:border-border/50">
         <div className="container mx-auto px-4">
           <div className="h-16 flex items-center justify-between">
@@ -56,11 +55,9 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
-        {/* Subtle blur orbs - very light and unobtrusive */}
         <div className="absolute top-20 left-1/4 w-96 h-96 bg-indigo-200/30 dark:bg-indigo-600/20 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-1/4 w-80 h-80 bg-violet-200/20 dark:bg-violet-600/15 rounded-full blur-3xl" />
         
-        {/* Dark mode purple glow */}
         <div className="hidden dark:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-900/20 rounded-full blur-3xl" />
         
         <div className="container mx-auto px-4 relative">
@@ -143,7 +140,6 @@ export default function LandingPage() {
 
       {/* CTA Section */}
       <section className="py-20 relative overflow-hidden bg-white dark:bg-slate-950">
-        {/* Subtle background orb */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-indigo-100/50 dark:bg-purple-900/20 rounded-full blur-3xl" />
         
         <div className="container mx-auto px-4 relative">

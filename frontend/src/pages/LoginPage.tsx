@@ -47,18 +47,14 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Background - Trust & Tech gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-violet-600 to-indigo-700" />
       <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/40 to-transparent dark:from-background/90 dark:via-background/60" />
       
-      {/* Floating orbs */}
       <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-white/10 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-violet-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '-3s' }} />
       
-      {/* Dark mode purple glow */}
       <div className="hidden dark:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-900/30 rounded-full blur-3xl" />
       
-      {/* Theme Toggle */}
       <div className="absolute top-4 right-4 z-50">
         <ThemeToggle variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20 hover:text-white" />
       </div>

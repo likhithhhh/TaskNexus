@@ -3,7 +3,7 @@ const Task = require('../models/Task');
 const protect = require('../middleware/auth');
 const router = express.Router();
 
-// Get All Tasks (for the logged-in user)
+// Get All Tasks
 router.get('/', protect, async (req, res) => {
   try {
     const tasks = await Task.find({ user: req.user._id }).sort({ createdAt: -1 });

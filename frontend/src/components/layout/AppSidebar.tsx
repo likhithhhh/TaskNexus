@@ -94,7 +94,6 @@ export function AppSidebar() {
   );
 }
 
-// Mobile Sidebar (Sheet/Drawer)
 export function MobileSidebar() {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
